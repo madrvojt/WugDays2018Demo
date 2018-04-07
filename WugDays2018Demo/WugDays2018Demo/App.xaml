@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WugDays2018Demo.App">
+	<Application.Resources>
+        <ResourceDictionary>
+		<!-- Application resource dictionary -->
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="10" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
